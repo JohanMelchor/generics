@@ -17,11 +17,7 @@ public class CarritoIterator<T extends Producto> implements Iterator<T> {
         avanzarHastaCaro();
     }
 
-    /**
-     * Avanza el índice hasta encontrar el próximo producto
-     * cuyo precio sea >= precioMinimo.
-     * Si no hay más, deja 'siguiente' en null.
-     */
+    
     private void avanzarHastaCaro() {
         while (indice < lista.size()) {
             T actual = lista.get(indice++);

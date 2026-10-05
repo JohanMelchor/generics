@@ -15,6 +15,10 @@ public class Main {
         carrito.agregarProducto(new ProductoFisico("Mouse", 25.99, 0.2));
         carrito.agregarProducto(new ProductoDigital("Antivirus", 49.99, 1.2));
         carrito.agregarProducto(new ProductoFisico("Monitor", 350.00, 4.0));
+        carrito.agregarProducto(new ProductoDigital("Curso de Java", 150.00, 0.0));
+        carrito.agregarProducto(new ProductoFisico("Teclado", 75.00, 1.0));
+        carrito.agregarProducto(new ProductoDigital("Ebook de POO", 15.00, 0.0));
+        carrito.agregarProducto(new ProductoFisico("Impresora", 200.00, 6.0));
 
         System.out.println("Todos los productos");
         for (Producto p : carrito) {
